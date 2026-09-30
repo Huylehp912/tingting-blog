@@ -15,12 +15,12 @@ description: "Mô tả ngắn hiện trên trang blog và kết quả tìm kiế
 Nội dung bài viết ở đây.
 ```
 
-Commit và push lên nhánh `main` sẽ tự build và publish bằng GitHub Actions.
+Commit và push lên nhánh `main` sẽ tự build và publish bằng GitHub Pages.
 Để xem trước trên máy, cài Ruby và Bundler rồi chạy `bundle install` và
 `bundle exec jekyll serve` trong thư mục repo này.
 
 ## Bật GitHub Pages lần đầu
 
-Thêm DNS record CNAME `blog` trỏ tới `huylehp912.github.io`. Repository dùng
-GitHub Actions để publish; sau khi DNS cập nhật, vào Settings → Pages để xác
-nhận domain và bật Enforce HTTPS.
+Trong Settings → Pages, chọn **Deploy from a branch**, nhánh `main`, thư mục
+`/(root)`. Thêm DNS record CNAME `blog` trỏ tới `huylehp912.github.io`. Sau khi
+DNS cập nhật, xác nhận domain trong Pages và bật Enforce HTTPS.
