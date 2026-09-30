@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="intro">
+  <p class="eyebrow">TINGTING · BLOG</p>
+  <h1>Mua sắm vui hơn,<br><span>hiểu biết hơn.</span></h1>
+  <p class="lead">Mẹo mua sắm, hướng dẫn tích điểm và những cập nhật mới từ TingTing.</p>
+</section>
+
+<section class="posts" aria-label="Bài viết mới nhất">
+  <div class="section-heading"><h2>Bài viết mới nhất</h2><a href="{{ '/feed.xml' | relative_url }}">Theo dõi RSS ↗</a></div>
+  {% for post in site.posts %}
+  <article class="post-card">
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>{% if post.categories.size > 0 %}<span>·</span><span>{{ post.categories | first }}</span>{% endif %}</p>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 180 }}</p>
+    <a class="read-more" href="{{ post.url | relative_url }}">Đọc bài viết <span aria-hidden="true">→</span></a>
+  </article>
+  {% else %}
+  <div class="empty"><span class="empty-icon">✳</span><h3>Bài viết đang được chuẩn bị</h3><p>Quay lại sớm nhé — TingTing sẽ sớm chia sẻ những mẹo mua sắm hữu ích.</p></div>
+  {% endfor %}
+</section>

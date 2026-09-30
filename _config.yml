@@ -1,0 +1,15 @@
+title: TingTing Blog
+description: Chia sẻ mẹo mua sắm thông minh và cập nhật từ TingTing.
+url: https://blog.tingting.coupons
+baseurl: ""
+lang: vi
+timezone: Asia/Ho_Chi_Minh
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

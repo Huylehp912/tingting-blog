@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="article">
+  <a class="back" href="{{ '/' | relative_url }}">← Tất cả bài viết</a>
+  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>{% if page.categories.size > 0 %}<span>·</span><span>{{ page.categories | first }}</span>{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  <div class="article-content">{{ content }}</div>
+</article>
