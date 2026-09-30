@@ -4,12 +4,12 @@ title: "Mời bạn bè: bạn nhận 5.000, bạn mới nhận 2.000 điểm"
 date: 2026-09-30 09:00:00 +0700
 categories: [Mời bạn bè, Điểm thưởng]
 description: "Tìm hiểu chương trình giới thiệu TingTing: người mời nhận 5.000 điểm sau đơn hợp lệ, bạn mới nhận 2.000 điểm khi đăng ký."
-image: /assets/referral-campaign/mascot-invite-coin.webp
+image: /assets/referral-campaign/ref_blog.png
 ---
 
-<figure>
-  <img src="{{ '/assets/referral-campaign/mascot-invite-coin.webp' | relative_url }}" alt="Mascot TingTing cầm đồng xu, minh họa chương trình mời bạn bè" fetchpriority="high">
-  <figcaption>Mời bạn bè dùng TingTing và cùng tích lũy điểm thưởng.</figcaption>
+<figure class="referral-poster">
+  <img src="{{ '/assets/referral-campaign/ref_blog.png' | relative_url }}" alt="Poster chương trình TingTing: mời bạn bè cùng nhận điểm và đua Top giới thiệu mỗi tháng; Top 1 nhận 300.000 điểm, Top 2 nhận 200.000 điểm, Top 3 nhận 100.000 điểm" fetchpriority="high">
+  <figcaption>Poster chương trình mời bạn bè và bảng xếp hạng giới thiệu hàng tháng của TingTing.</figcaption>
 </figure>
 
 Bạn đang dùng TingTing để mua sắm và muốn rủ bạn bè cùng trải nghiệm? Với chương trình giới thiệu bạn bè, **người mời nhận 5.000 điểm** còn **người bạn mới nhận 2.000 điểm** khi lượt giới thiệu đáp ứng điều kiện. Bạn mới nhận điểm sau khi đăng ký hợp lệ; phần thưởng của người mời được xác nhận sau khi bạn ấy hoàn thành đơn hàng đầu tiên đủ điều kiện.
@@ -43,10 +43,7 @@ Ngoài điểm thưởng cho từng lượt giới thiệu hợp lệ, chương 
 
 Thứ hạng được tính theo số lượt giới thiệu đã xác nhận trong kỳ. Một lượt đăng ký đang chờ đơn đầu tiên chưa được tính vào bảng xếp hạng xác nhận.
 
-<figure>
-  <img src="{{ '/assets/referral-campaign/top3-podium.webp' | relative_url }}" alt="Bục vinh danh ba hạng đầu của bảng xếp hạng giới thiệu bạn bè" loading="lazy">
-  <figcaption>Top 3 theo kỳ nhận thêm điểm thưởng theo thể lệ chương trình.</figcaption>
-</figure>
+
 
 ## Kiểm tra thể lệ trước khi chia sẻ
 
