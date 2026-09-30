@@ -40,8 +40,8 @@
       main { min-height: 70vh; }
       .masthead { padding: 66px 0 44px; border-bottom: 1px solid var(--line); }
       .masthead-inner { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 80px; align-items: end; }
-      .masthead h1 { max-width: 730px; margin: 0; font: 600 clamp(43px, 6vw, 72px)/1.08 var(--display); letter-spacing: -.055em; }
-      .masthead h1 span { color: #39866f; }
+      .masthead h1 { max-width: 560px; margin: 0; font-family: var(--display); font-size: clamp(30px, 4.4vw, 48px); font-weight: 800; line-height: 1.16; letter-spacing: -1px; color: var(--ink); }
+      .masthead h1 span { color: var(--ink); }
       .masthead-copy { max-width: 320px; margin: 0 0 8px; color: var(--muted); font-size: 14px; line-height: 1.8; }
       .masthead-copy strong { display: block; margin-bottom: 8px; color: var(--ink); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
       .section-label { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; color: var(--ink-soft); font-size: 12px; font-weight: 700; }
@@ -75,7 +75,7 @@
       .back { color: var(--ink-soft); font-size: 12px; font-weight: 600; }
       .back:hover { color: var(--coral); }
       .article-header { max-width: 720px; margin: 42px auto 32px; }
-      .article-header h1 { margin: 17px 0 14px; font: 600 clamp(38px, 6vw, 62px)/1.13 var(--display); letter-spacing: -.05em; }
+      .article-header h1 { max-width: 560px; margin: 17px 0 14px; font-family: var(--display); font-size: clamp(30px, 4.4vw, 48px); font-weight: 800; line-height: 1.16; letter-spacing: -1px; color: var(--ink); }
       .article-header .lead { max-width: 670px; margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.8; }
       .article-cover { margin: 0 0 35px; }
       .article-cover img { display: block; width: 100%; max-height: 650px; object-fit: cover; object-position: center 38%; }
@@ -110,7 +110,7 @@
         .nav { flex: none; gap: 13px; font-size: 11px; white-space: nowrap; }
         .masthead { padding: 48px 0 32px; }
         .masthead-inner { grid-template-columns: minmax(0, 1fr); gap: 18px; }
-        .masthead h1 { min-width: 0; max-width: 100%; font-size: clamp(32px, 9vw, 42px); letter-spacing: -.06em; overflow-wrap: break-word; }
+        .masthead h1 { min-width: 0; max-width: 100%; overflow-wrap: break-word; }
         .masthead-copy { max-width: 470px; }
         .featured { grid-template-columns: 1fr; margin: 28px 0 58px; }
         .featured-image, .featured-image img { min-height: 0; height: auto; max-height: 430px; }
@@ -124,7 +124,7 @@
         .latest-heading h2 { font-size: 26px; }
         .article { margin: 28px auto 68px; }
         .article-header { margin: 34px 0 25px; }
-        .article-header h1 { font-size: clamp(37px, 10vw, 52px); }
+        .article-header h1 { max-width: 100%; }
         .article-header .lead { font-size: 15px; }
         .article-cover { margin-bottom: 27px; }
         .article-cover img { max-height: 560px; }
