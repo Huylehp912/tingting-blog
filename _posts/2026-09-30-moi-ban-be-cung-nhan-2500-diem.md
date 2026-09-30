@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mời bạn bè: bạn nhận 5.000, bạn mới nhận 2.000 điểm"
+title: "Mời bạn bè: Nhận điểm và đua top"
 date: 2026-09-30 09:00:00 +0700
 categories: [Mời bạn bè, Điểm thưởng]
 description: "Tìm hiểu chương trình giới thiệu TingTing: người mời nhận 5.000 điểm sau đơn hợp lệ, bạn mới nhận 2.000 điểm khi đăng ký."
