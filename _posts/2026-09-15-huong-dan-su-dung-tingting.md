@@ -5,12 +5,10 @@ date: 2026-09-15 09:00:00 +0700
 categories: [Hướng dẫn, Điểm thưởng]
 description: "Hướng dẫn từng bước đăng nhập TingTing, tạo link mua sắm, theo dõi đơn hàng và quy đổi điểm thưởng khi đủ điều kiện."
 image: /assets/guide/mascot-order-box.png
+image_alt: "Mascot TingTing bên hộp hàng, minh họa hành trình mua sắm tích điểm"
+image_caption: "Tạo link theo dõi trong TingTing trước khi mua sắm trên sàn."
 ---
 
-<figure>
-  <img src="{{ '/assets/guide/mascot-order-box.png' | relative_url }}" alt="Mascot TingTing bên hộp hàng, minh họa hành trình mua sắm tích điểm" fetchpriority="high">
-  <figcaption>TingTing giúp bạn tạo link theo dõi trước khi mua sắm trên sàn.</figcaption>
-</figure>
 
 TingTing giúp bạn tạo link mua sắm có theo dõi để tích lũy điểm thưởng trên **Shopee, TikTok Shop và ShopeeFood**. Bạn vẫn chọn sản phẩm, đặt hàng, thanh toán và xử lý đổi trả trên nền tảng bán hàng tương ứng. Hãy làm theo hướng dẫn dưới đây để bắt đầu.
 

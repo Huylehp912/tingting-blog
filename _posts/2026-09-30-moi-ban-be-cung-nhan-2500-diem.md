@@ -5,12 +5,10 @@ date: 2026-09-30 09:00:00 +0700
 categories: [Mời bạn bè, Điểm thưởng]
 description: "Tìm hiểu chương trình giới thiệu TingTing: người mời nhận 5.000 điểm sau đơn hợp lệ, bạn mới nhận 2.000 điểm khi đăng ký."
 image: /assets/referral-campaign/ref_blog.png
+image_alt: "Poster chương trình TingTing: mời bạn bè nhận điểm và đua Top giới thiệu hàng tháng"
+image_caption: "Poster chương trình mời bạn bè và bảng xếp hạng giới thiệu hàng tháng của TingTing."
 ---
 
-<figure class="referral-poster">
-  <img src="{{ '/assets/referral-campaign/ref_blog.png' | relative_url }}" alt="Poster chương trình TingTing: mời bạn bè cùng nhận điểm và đua Top giới thiệu mỗi tháng; Top 1 nhận 300.000 điểm, Top 2 nhận 200.000 điểm, Top 3 nhận 100.000 điểm" fetchpriority="high">
-  <figcaption>Poster chương trình mời bạn bè và bảng xếp hạng giới thiệu hàng tháng của TingTing.</figcaption>
-</figure>
 
 Bạn đang dùng TingTing để mua sắm và muốn rủ bạn bè cùng trải nghiệm? Với chương trình giới thiệu bạn bè, **người mời nhận 5.000 điểm** còn **người bạn mới nhận 2.000 điểm** khi lượt giới thiệu đáp ứng điều kiện. Bạn mới nhận điểm sau khi đăng ký hợp lệ; phần thưởng của người mời được xác nhận sau khi bạn ấy hoàn thành đơn hàng đầu tiên đủ điều kiện.
 
