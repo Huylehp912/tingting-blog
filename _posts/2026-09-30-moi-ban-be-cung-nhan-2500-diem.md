@@ -4,7 +4,7 @@ title: "Mời bạn bè: bạn nhận 5.000, bạn mới nhận 2.000 điểm"
 date: 2026-09-30 09:00:00 +0700
 categories: [Mời bạn bè, Điểm thưởng]
 description: "Tìm hiểu chương trình giới thiệu TingTing: người mời nhận 5.000 điểm sau đơn hợp lệ, bạn mới nhận 2.000 điểm khi đăng ký."
-image: /assets/referral-campaign/ref_blog.png
+image: /assets/referral-campaign/ref_blog.webp
 image_alt: "Poster chương trình TingTing: mời bạn bè nhận điểm và đua Top giới thiệu hàng tháng"
 image_caption: "Poster chương trình mời bạn bè và bảng xếp hạng giới thiệu hàng tháng của TingTing."
 ---

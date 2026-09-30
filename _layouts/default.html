@@ -46,11 +46,11 @@
       .masthead-copy strong { display: block; margin-bottom: 8px; color: var(--ink); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
       .section-label { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; color: var(--ink-soft); font-size: 12px; font-weight: 700; }
       .section-label::before { width: 24px; height: 2px; background: var(--coral); content: ""; }
-      .featured { display: grid; grid-template-columns: 1.08fr .92fr; min-height: 368px; margin: 42px 0 76px; background: #edf6f1; }
+      .featured { display: grid; grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr); min-height: 368px; margin: 42px 0 76px; background: #edf6f1; }
       .featured-image { min-height: 368px; overflow: hidden; }
       .featured-image img { display: block; width: 100%; height: 100%; min-height: 368px; object-fit: cover; object-position: center 38%; }
       .featured-image.poster { display: flex; align-items: center; justify-content: center; background: #e3f5ee; }
-      .featured-image.poster img { width: auto; height: 368px; min-height: 0; max-width: 100%; object-fit: contain; padding: 8px; }
+      .featured-image.poster img { width: auto; height: 540px; min-height: 0; max-width: 100%; object-fit: contain; padding: 8px; }
       .featured-copy { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 42px clamp(28px, 5vw, 64px); }
       .story-meta { display: flex; align-items: center; gap: 11px; color: var(--muted); font-size: 12px; font-weight: 500; }
       .story-topic { color: #28745f; font-weight: 700; }
@@ -114,7 +114,7 @@
         .featured { grid-template-columns: 1fr; margin: 28px 0 58px; }
         .featured-image, .featured-image img { min-height: 0; height: auto; max-height: 430px; }
         .featured-image img { aspect-ratio: 4 / 3; }
-        .featured-image.poster img { height: 430px; max-height: 430px; }
+        .featured-image.poster img { height: 480px; max-height: 480px; }
         .featured-copy { padding: 28px 26px 32px; }
         .featured h2 { font-size: 33px; }
         .story-list { grid-template-columns: 1fr; }

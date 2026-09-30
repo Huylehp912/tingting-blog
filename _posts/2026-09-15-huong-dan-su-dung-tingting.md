@@ -4,7 +4,7 @@ title: "Hướng dẫn sử dụng TingTing: tạo link và nhận điểm thư�
 date: 2026-09-15 09:00:00 +0700
 categories: [Hướng dẫn, Điểm thưởng]
 description: "Hướng dẫn từng bước đăng nhập TingTing, tạo link mua sắm, theo dõi đơn hàng và quy đổi điểm thưởng khi đủ điều kiện."
-image: /assets/guide/mascot-order-box.png
+image: /assets/guide/mascot-order-box.webp
 image_alt: "Mascot TingTing bên hộp hàng, minh họa hành trình mua sắm tích điểm"
 image_caption: "Tạo link theo dõi trong TingTing trước khi mua sắm trên sàn."
 ---
@@ -41,7 +41,7 @@ Khi link đã sẵn sàng, nhấn nút mở Shopee, TikTok Shop hoặc ShopeeFoo
 Mở mục **Đơn hàng** trong TingTing để xem trạng thái. Đơn mới có thể ở trạng thái chờ xác nhận; đơn đã được đối soát sẽ chuyển sang đã duyệt, còn đơn không đủ điều kiện sẽ hiển thị trạng thái và lý do tương ứng.
 
 <figure>
-  <img src="{{ '/assets/guide/link-recents.png' | relative_url }}" alt="Minh họa danh sách link đã tạo gần đây đang được theo dõi" loading="lazy">
+  <img src="{{ '/assets/guide/link-recents.webp' | relative_url }}" alt="Minh họa danh sách link đã tạo gần đây đang được theo dõi" loading="lazy">
   <figcaption>Kiểm tra các link vừa tạo và trạng thái xử lý trong TingTing.</figcaption>
 </figure>
 
