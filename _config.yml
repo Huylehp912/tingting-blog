@@ -3,6 +3,8 @@ description: Chia sẻ mẹo mua sắm thông minh và cập nhật từ TingTin
 url: https://blog.tingting.coupons
 baseurl: ""
 lang: vi
+logo: /assets/tingting-logo-v1.png
+image: /assets/tingting-logo-v1.png
 timezone: Asia/Ho_Chi_Minh
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
