@@ -11,7 +11,7 @@ layout: default
 {% assign featured_post = site.posts.first %}
 {% if featured_post %}
 <section class="featured" aria-label="Bài viết nổi bật">
-  {% if featured_post.image %}<a class="featured-image" href="{{ featured_post.url | relative_url }}"><img src="{{ featured_post.image | relative_url }}" alt="" fetchpriority="high"></a>{% endif %}
+  {% if featured_post.image %}{% assign featured_image_class = "" %}{% if featured_post.image contains "ref_blog" %}{% assign featured_image_class = " poster" %}{% endif %}<a class="featured-image{{ featured_image_class }}" href="{{ featured_post.url | relative_url }}"><img src="{{ featured_post.image | relative_url }}" alt="" fetchpriority="high"></a>{% endif %}
   <div class="featured-copy">
     <p class="section-label">Bài viết mới</p>
     <div class="story-meta"><time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date: "%d/%m/%Y" }}</time>{% if featured_post.categories.size > 0 %}<span class="story-topic">{{ featured_post.categories | first }}</span>{% endif %}</div>
