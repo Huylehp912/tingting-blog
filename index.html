@@ -27,10 +27,13 @@ layout: default
   <div class="story-list">
     {% assign remaining_posts = site.posts | shift %}
     {% for post in remaining_posts %}
-    <article class="story-row">
-      <div class="story-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>{% if post.categories.size > 0 %}<span class="story-topic">{{ post.categories | first }}</span>{% endif %}</div>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 155 }}</p>
+    <article class="story-row{% unless post.image %} no-thumb{% endunless %}">
+      {% if post.image %}<a class="story-thumb" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+      <div class="story-detail">
+        <div class="story-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>{% if post.categories.size > 0 %}<span class="story-topic">{{ post.categories | first }}</span>{% endif %}</div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 155 }}</p>
+      </div>
     </article>
     {% else %}
     <p class="empty">Bài viết mới sẽ được cập nhật tại đây.</p>
